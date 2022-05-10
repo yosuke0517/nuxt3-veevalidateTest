@@ -8,6 +8,7 @@ const formSchema = yup.object({
   organization: yup.string().required("テキストは必須項目です"),
 });
 
+// これvalueの型にいけるかと思ったけど補完（oraganizationが効かない）効かなかった
 type TypeOfLangageShorthandKey = keyof typeof formSchema;
 // TODO 型がわからん
 const handleSubmit = (values, actions) => {
