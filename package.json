@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nuxt": "3.0.0-rc.1",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "sass": "^1.51.0",
+    "vee-validate": "^4.5.11",
+    "yup": "^0.32.11",
+    "yup-locale-ja": "^0.1.3"
+  }
+}
